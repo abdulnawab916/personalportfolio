@@ -1,0 +1,145 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*Imported CSS Presets*/
+/*Imported CSS fonts from Google*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+div #introHeading {
+  font-family: 'Lobster';
+  font-style: italic;
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+}
+
+div #aboutMeSection {
+  font-family:'Agdasima', sans-serif;
+  font-style:none;
+
+font-style: none;
+  font-size: 15px;
+  color: white;
+  font-weight: 200;
+}
+
+h4 {
+  font-size: 25px;
+  color: white;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #384ba9;
+background-image: linear-gradient(43deg, #000000 0%, #470344 46%, #000000 100%);
+}
+
+div p #emoji {
+  font-style: none;
+}
+
+#PhotoLink {
+  transition: 1s;
+  color: white;
+  font-style: none;
+
+}
+
+#PhotoLink:hover {
+  font-style: none;
+
+  transition: 1s;
+  color: white;
+  font-style: italic;
+  color: yellow;
+}
+
+.card-text {
+  color: white;
+}
+
+
+nav {
+  border-bottom: solid white;
+}
+
+ul.nav a{
+  transition: .5s;
+}
+/*When I hover over a navitem, I want to be able to tell that I hovered*/
+ul.nav a:hover { 
+  transition: .5s;
+  color: #a638a1 !important; 
+}
+ 
+img {
+  transition: 4s;
+}
+
+img:hover {
+  transition: 4s;
+}
+
+#nameInIntro {
+  transition: 1s;
+}
+/*I want my name to change color when it is hovered over*/
+/*Make sure that my name is an ID*/
+#nameInIntro:hover {
+  transition: 1s;
+  color: #a638a1 !important; 
+
+}
+
+
+#introDiv {
+  height: 100vh;
+}
