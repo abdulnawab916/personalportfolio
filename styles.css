@@ -35,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  height: 150vh;
 }
 ol, ul {
 	list-style: none;
@@ -53,10 +54,11 @@ table {
 }
 
 
+
 div #introHeading {
   font-family: 'Lobster';
   font-style: italic;
-  font-size: 4rem;
+  font-size: 7rem;
   color: white;
   font-weight: bold;
 }
@@ -66,7 +68,7 @@ div #aboutMeSection {
   font-style:none;
 
 font-style: none;
-  font-size: 15px;
+  font-size: 25px;
   color: white;
   font-weight: 200;
 }
@@ -85,6 +87,7 @@ background-image: linear-gradient(43deg, #000000 0%, #470344 46%, #000000 100%);
 div p #emoji {
   font-style: none;
 }
+
 
 #PhotoLink {
   transition: 1s;
